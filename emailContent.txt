@@ -1,0 +1,8 @@
+Hi ${name},
+
+Greetings for the day..!!
+
+     Your conatct details are saved in ${Frnd_Name}  phone book.
+     
+     Thank you.
+	

@@ -1,0 +1,26 @@
+server:
+  port: 9090
+
+spring:
+  mvc:
+    view:
+      prefix: /view/
+      suffix: .jsp
+      
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: 
+    url: jdbc:h2:mem:testdb
+    username: sa
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: jyotisankardas50@gmail.com
+    password: Jy9437524680@
+    properties.mail.smtp :
+      auth: true
+      starttls.enable: true
