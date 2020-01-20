@@ -28,7 +28,7 @@ public class ContactInfoController {
 	private EmailUtility emailutility;
 
 	/**
-	 * this method is used for lunch form static dynamic page
+	 * This method is used for lunch form static dynamic page
 	 * 
 	 * @param model
 	 * @return
