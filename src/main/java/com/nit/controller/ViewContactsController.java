@@ -27,7 +27,7 @@ public class ViewContactsController {
 		int parseInt = Integer.parseInt(req.getParameter("contactId"));
 		ContactDomain contactByID = contactmgnservice.getContactByID(parseInt);
 		model.addAttribute("beans", contactByID);
-		return "contact";
+		 return "contact";
 
 	}
 
