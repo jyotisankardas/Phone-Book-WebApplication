@@ -40,7 +40,7 @@ public class ViewContactsController {
 	@RequestMapping(value = "/delet", method = RequestMethod.GET)
 	public String deleteContact(HttpServletRequest req, Model model) {
 		int parseInt = Integer.parseInt(req.getParameter("contactId"));
-		contactmgnservice.deletContactByID(parseInt );
+		contactmgnservice.deletContactByID(parseInt);
 
 		return "redirect:/getalldata";
 	}
