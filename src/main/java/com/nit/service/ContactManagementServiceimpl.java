@@ -64,8 +64,9 @@ public class ContactManagementServiceimpl implements ContactManagementService {
 			domain = new ContactDomain();
 			ContactsDetailsEntity enity = optional.get();
 			BeanUtils.copyProperties(enity, domain);
+			System.out.println("Hii Bosss");
 		}
-		return domain;
+		return  domain;
 	}
 
 	
