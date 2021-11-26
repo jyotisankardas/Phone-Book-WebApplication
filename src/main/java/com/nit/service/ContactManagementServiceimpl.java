@@ -57,7 +57,7 @@ public class ContactManagementServiceimpl implements ContactManagementService {
 	 * This method is used for show contact details specific given id
 	 */
 	@Override
-	public ContactDomain getContactByID(Integer contactId) {
+	public ContactDomain getContactByID(Integer  contactId) {
 		ContactDomain domain = null;
 		Optional<ContactsDetailsEntity> optional = contactRepo.findById(contactId);
 		if (optional.isPresent()) {
